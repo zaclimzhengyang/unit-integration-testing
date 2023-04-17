@@ -21,6 +21,10 @@ public class EmployeeService {
         return employeeRepository.save(emp);
     }
 
+    // example of effectful method
+    // method that changes the state an external / internal dependencies
+    // some example of external dependencies include databases, servers, console
+    // some example of internal dependencies include variable e.g. hashmap, arraylist
     public List<Employee> getAllEmployees() {
         System.out.println("get all employees: ");
         return employeeRepository.findAll();
@@ -46,6 +50,10 @@ public class EmployeeService {
         System.out.println("new employee last name: " + emp.getLastName());
         System.out.println("new employee email id: " + emp.getEmailId());
         return employeeRepository.save(emp);
+    }
+
+    public String getFirstNameById(Long id) {
+        return employeeRepository.getFirstNameById(id);
     }
 
 }
