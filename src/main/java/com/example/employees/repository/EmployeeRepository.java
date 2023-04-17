@@ -12,6 +12,6 @@ import java.util.List;
 @Repository
 @Qualifier
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-    @Query("SELECT a.firstName FROM employee WHERE a.empId = :empId")
-    public String getFirstNameById(@Param("id") Integer empId);
+//    @Query("SELECT a.firstName FROM employee WHERE a.empId = :empId")
+//    public String getFirstNameById(@Param("id") Integer empId);
 }
