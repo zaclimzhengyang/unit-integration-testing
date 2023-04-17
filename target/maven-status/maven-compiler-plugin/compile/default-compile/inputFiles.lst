@@ -1,7 +1,8 @@
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/repository/EmployeeRepository.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/repository/EmployeeRepositoryImp.java
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/EmployeeService.java
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/FortuneCookieService.java
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/EmployeesApplication.java
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/controller/EmployeeController.java
 /Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/model/Employee.java
+/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/SingleResponsibilityPractice.java
+/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/EffectfulVsNonEffectfulService.java

@@ -1,16 +1,8 @@
 package com.example.employees;
 
-import com.example.employees.model.Employee;
 import com.example.employees.repository.EmployeeRepository;
-import com.example.employees.repository.EmployeeRepositoryImp;
-import com.example.employees.service.EmployeeService;
-import org.junit.Assert;
-import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -29,7 +21,7 @@ public class MockitoDemoApplicationTests {
 //    private EmployeeRepository employeeRepository;
 
     @Mock
-    private EmployeeRepositoryImp employeeRepositoryImp;
+    private EmployeeRepository employeeRepository;
 
     /**
      * Why this repository service method, .getFirstNameById should be an integration test instead:

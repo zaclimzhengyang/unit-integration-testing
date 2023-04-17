@@ -2,7 +2,6 @@ package com.example.employees.service;
 
 import com.example.employees.model.Employee;
 import com.example.employees.repository.EmployeeRepository;
-import com.example.employees.repository.EmployeeRepositoryImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -52,8 +51,8 @@ public class EmployeeService {
         return employeeRepository.save(emp);
     }
 
-    public String getFirstNameById(Long id) {
-        return employeeRepository.getFirstNameById(id);
-    }
+//    public String getFirstNameById(Integer id) {
+//        return employeeRepository.getFirstNameById(id);
+//    }
 
 }
