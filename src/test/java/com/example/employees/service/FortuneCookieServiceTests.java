@@ -2,6 +2,7 @@ package com.example.employees.service;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 public class FortuneCookieServiceTests {
 
