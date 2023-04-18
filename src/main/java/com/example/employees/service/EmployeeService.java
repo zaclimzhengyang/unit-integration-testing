@@ -13,7 +13,7 @@ public class EmployeeService {
     EmployeeRepository employeeRepository;
 
     public Employee createEmployee(Employee emp) {
-        System.out.println("saved employee id: " + emp.getId());
+        System.out.println("saved employee id: " + emp.getEmpId());
         System.out.println("saved employee first name: " + emp.getFirstName());
         System.out.println("saved employee last name: " + emp.getLastName());
         System.out.println("saved employee email id: " + emp.getEmailId());
@@ -44,15 +44,16 @@ public class EmployeeService {
         emp.setLastName(employeeDetails.getLastName());
         emp.setEmailId(employeeDetails.getEmailId());
 
-        System.out.println("updating employee by id: " + emp.getId());
+        System.out.println("updating employee by id: " + emp.getEmpId());
         System.out.println("new employee first name: " + emp.getFirstName());
         System.out.println("new employee last name: " + emp.getLastName());
         System.out.println("new employee email id: " + emp.getEmailId());
         return employeeRepository.save(emp);
     }
 
-//    public String getFirstNameById(Integer id) {
-//        return employeeRepository.getFirstNameById(id);
-//    }
+    public String getFirstNameById(Long empId) {
+        System.out.println("enquire first name of employee: " + empId);
+        return employeeRepository.getFirstNameById(empId);
+    }
 
 }

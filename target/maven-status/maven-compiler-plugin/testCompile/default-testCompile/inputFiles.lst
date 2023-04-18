@@ -1,2 +1,4 @@
 /Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/MockitoDemoApplicationTests.java
-/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/MockitoDemoApplication.java
+/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/service/FortuneCookieServiceTests.java
+/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/service/SingleResponsibilityPracticeTests.java
+/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/repository/EmployeeRepositoryTest.java

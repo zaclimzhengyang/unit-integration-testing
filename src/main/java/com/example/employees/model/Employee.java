@@ -8,7 +8,7 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "emp_id")
-    private Integer id;
+    private Long empId;
 
     @Column(name = "first_name")
     private String firstName;
@@ -21,11 +21,12 @@ public class Employee {
 
 
     // getters and setters
-    public void setId(Integer id) {
-        this.id = id;
+    public void setEmpId(Long empId) {
+        this.empId = empId;
     }
-    public Integer getId() {
-        return id;
+
+    public Long getEmpId() {
+        return empId;
     }
 
     public void setFirstName(String firstName) {

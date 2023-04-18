@@ -20,8 +20,13 @@ public class EmployeeController {
     }
 
     @RequestMapping(value="/employees", method=RequestMethod.GET)
-    public List<Employee> readAllEmployees () {
+    public List<Employee> readAllEmployees() {
         return empService.getAllEmployees();
+    }
+
+    @RequestMapping(value="/employee/getFirstName/{empId}", method=RequestMethod.GET)
+    public String getFirstNameById(@PathVariable(value="empId") Long empId) {
+        return empService.getFirstNameById(empId);
     }
 
     @RequestMapping(value="/employees/{empId}", method=RequestMethod.PUT)
