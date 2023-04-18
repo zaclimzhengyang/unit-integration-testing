@@ -32,6 +32,17 @@ import static org.mockito.Mockito.when;
 @RunWith(SpringRunner.class)
 //@SpringBootTest(classes=EmployeeRepository.class)
 public class EmployeeRepositoryTest {
+    /**
+     * Why this repository service method, .getFirstNameById should be an integration test instead:
+     * 1. The logic for making a database query here, is using springboot's DAO package.
+     * This is open-sourced, and already extensively tested.
+     * The only reason this will likely have a bug, is if the SQL query is malformatted / got bug
+     *
+     * 2. This method, is an effect; it makes a state change to your database (can be a variable / api service)
+     * - This requires a database to even execute.
+     * - This is best moved as an integration test; a test which tests two or more thins
+     * - An integration test in this case will test both the database, and this method
+     */
 
     @Mock
     private EmployeeRepository employeeRepository;
