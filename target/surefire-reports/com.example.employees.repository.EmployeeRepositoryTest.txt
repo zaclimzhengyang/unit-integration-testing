@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.employees.repository.EmployeeRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.example.employees.repository.EmployeeRepositoryTest
+testEmployeeRepository  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.employees.repository.EmployeeRepository.save(Object)" because "this.employeeRepository" is null
+	at com.example.employees.repository.EmployeeRepositoryTest.testEmployeeRepository(EmployeeRepositoryTest.java:40)
+
