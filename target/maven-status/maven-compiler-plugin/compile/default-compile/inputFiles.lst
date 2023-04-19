@@ -1,9 +1,6 @@
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/repository/EmployeeRepository.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/EmployeeService.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/FortuneCookieService.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/EmployeesApplication.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/config/RepositoryConfig.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/controller/EmployeeController.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/model/Employee.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/SingleResponsibilityPractice.java
-/Users/limzhengyang/Desktop/junit-testing/src/main/java/com/example/employees/service/EffectfulVsNonEffectfulService.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/service/Type.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/CalculateAreaApplication.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/service/RectangleService.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/service/CircleService.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/service/SquareService.java
+/Users/limzhengyang/Desktop/integration-testing/src/main/java/com/example/employees/service/CalculateArea.java

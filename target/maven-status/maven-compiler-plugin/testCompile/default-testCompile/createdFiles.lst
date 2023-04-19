@@ -1,4 +1,2 @@
-com/example/employees/service/SingleResponsibilityPracticeTests.class
-com/example/employees/service/FortuneCookieServiceTests.class
-com/example/employees/repository/EmployeeRepositoryTest.class
-com/example/employees/MockitoDemoApplicationTests.class
+com/example/employees/service/AlternativeTest.class
+com/example/employees/service/CalculateAreaTest.class

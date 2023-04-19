@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.employees.service.AlternativeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in com.example.employees.service.AlternativeTest
+calculateRectangleAreaTest  Time elapsed: 0.026 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.employees.service.RectangleService.area(java.lang.Double, java.lang.Double)" because "this.rectangleService" is null
+	at com.example.employees.service.AlternativeTest.calculateRectangleAreaTest(AlternativeTest.java:30)
+

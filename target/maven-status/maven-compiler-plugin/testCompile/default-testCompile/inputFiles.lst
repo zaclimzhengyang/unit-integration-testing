@@ -1,4 +1,3 @@
-/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/MockitoDemoApplicationTests.java
-/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/service/FortuneCookieServiceTests.java
-/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/service/SingleResponsibilityPracticeTests.java
-/Users/limzhengyang/Desktop/junit-testing/src/test/java/com/example/employees/repository/EmployeeRepositoryTest.java
+/Users/limzhengyang/Desktop/integration-testing/src/test/java/com/example/employees/service/CalculateAreaTest.java
+/Users/limzhengyang/Desktop/integration-testing/src/test/java/com/example/employees/service/PartialMockingWithSpy.java
+/Users/limzhengyang/Desktop/integration-testing/src/test/java/com/example/employees/service/AlternativeTest.java

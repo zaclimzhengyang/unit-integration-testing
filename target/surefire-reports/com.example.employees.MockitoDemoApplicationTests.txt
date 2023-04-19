@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.employees.MockitoDemoApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.employees.MockitoDemoApplicationTests
-initializationError  Time elapsed: 0 s  <<< ERROR!
-org.junit.runners.model.InvalidTestClassError: 
-Invalid test class 'com.example.employees.MockitoDemoApplicationTests':
-  1. No runnable methods
-
